@@ -1,0 +1,59 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.container .card{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+.card .formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.login .container{
+    height: 500px;
+    width: auto;
+    background-image: url("../assets/imgs/bg-jelly-fish-para-home.png");
+}
+.card{
+    font-weight: 600;
+    border-radius: 10px;
+    justify-content: space-between;
+    background-color: aliceblue;
+    color: pink;
+}
+.formulario{
+    width: 100%;
+    padding: 10px;
+}
+.campo{
+    margin-top: -10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+}
+.botao{
+    font-weight: 600;
+    border:none;
+    margin-top: 10px;
+    height: 25px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: crimson;
+    color: white;
+}
+input{
+    text-align: center;
+    height: 25px;
+    width: 450px;
+    border: 1px aqua solid;
+    border-radius: 7px;
+}
